@@ -1,0 +1,8 @@
+a=open("a1.txt","a")
+l1=str(input("Enter Text:"))
+a.write("\n")
+a.write(l1)
+a.close()
+a=open("a1.txt","r")
+print(a.read())
+a.close()

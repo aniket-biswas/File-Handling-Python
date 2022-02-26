@@ -1,0 +1,7 @@
+f = open("a6.txt", "rt")
+d = f.read()
+d = d.replace("Ani", "CS")
+f.close()
+f = open("a6.txt", "wt")
+f.write(d)
+f.close()

@@ -1,0 +1,6 @@
+f = open("a2.txt", 'r')
+text = f.readline()
+print(text)
+text = f.readline()
+print(text)
+f.close()
